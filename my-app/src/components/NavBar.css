@@ -1,0 +1,17 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 16px 0;
+    border-top: 1px solid #ddd;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    max-width: 375px; /* Standard phone width */
+
+  }
+  
+  .nav-item {
+    font-size: 24px;
+  }
+  
