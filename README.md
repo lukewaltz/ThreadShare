@@ -9,3 +9,6 @@ CSC-484 Final Project - Ecommerce App MVP
 ## Functionality
 1. Hardcoded Browse Page with 3 products  
 2. Hardcoded Product Pages for each of the products  
+
+## Demo Link:
+https://youtu.be/PHxb1pPcuH8
