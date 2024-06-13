@@ -1,0 +1,121 @@
+/* src/pages/Product.css */
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 375px; /* Standard phone width */
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+  
+  .product-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .back-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .logo {
+    margin: 0;
+    font-size: 28px; /* Increased font size */
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .product-details {
+    width: 100%;
+    text-align: center;
+    padding: 16px 0;
+  }
+  
+  .product-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+  }
+  
+  .product-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .product-text {
+    text-align: left;
+    flex: 1;
+  }
+  
+  .product-name {
+    font-size: 20px;
+    margin: 8px 0;
+  }
+  
+  .product-description {
+    font-size: 14px; /* Smaller text size */
+    margin: 8px 0;
+  }
+  
+  .product-price {
+    font-size: 16px; /* Smaller text size */
+    margin: 8px 0;
+    font-weight: bold;
+  }
+  
+  .listed-by {
+    text-align: right;
+    flex: 1;
+  }
+  
+  .profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+  }
+  
+  .seller-rating {
+    font-size: 12px; /* Smaller text size */
+    margin: 4px 0;
+  }
+  
+  .product-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-top: 1px solid #ddd;
+  }
+  
+  .bookmark-button, .message-button {
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 16px;
+  }
+  
+  .bookmark-button {
+    background-color: #f0f0f0;
+    width: 25%;
+  }
+  
+  .message-button {
+    background-color: #007bff;
+    color: white;
+    width: 70%;
+  }
+  
