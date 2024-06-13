@@ -6,9 +6,9 @@
     border-top: 1px solid #ddd;
     position: fixed;
     bottom: 0;
-    background-color: #fff;
+    background-color: #D9D9D9;
     max-width: 375px; /* Standard phone width */
-
+    height: 40px;
   }
   
   .nav-item {
